@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d364be84.chunk.css",
+    "main.js": "/static/js/main.3fd599fc.chunk.js",
+    "main.js.map": "/static/js/main.3fd599fc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.96bb0a8e.chunk.js": "/static/js/2.96bb0a8e.chunk.js",
+    "static/js/2.96bb0a8e.chunk.js.map": "/static/js/2.96bb0a8e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.605fa80e4c592e674e275f06018c0ad3.js": "/precache-manifest.605fa80e4c592e674e275f06018c0ad3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d364be84.chunk.css.map": "/static/css/main.d364be84.chunk.css.map",
+    "static/js/2.96bb0a8e.chunk.js.LICENSE.txt": "/static/js/2.96bb0a8e.chunk.js.LICENSE.txt",
+    "static/media/api.jpg": "/static/media/api.71829368.jpg",
+    "static/media/form.jpg": "/static/media/form.fd332887.jpg",
+    "static/media/game.jpg": "/static/media/game.022b0010.jpg",
+    "static/media/movie.jpg": "/static/media/movie.5aae3833.jpg",
+    "static/media/personal.jpg": "/static/media/personal.f38aab71.jpg",
+    "static/media/twitter.png": "/static/media/twitter.09cdd41d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.96bb0a8e.chunk.js",
+    "static/css/main.d364be84.chunk.css",
+    "static/js/main.3fd599fc.chunk.js"
+  ]
+}
