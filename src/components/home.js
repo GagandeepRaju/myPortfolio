@@ -12,6 +12,15 @@ import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   homeContainer: {},
+  intro: {
+    [theme.breakpoints.down("md")]: {
+      fontSize: "4em",
+    },
+    [theme.breakpoints.down("sm")]: {
+      paddingTop: "1em",
+      fontSize: "3em",
+    },
+  },
   introSub: {
     fontSize: ".5em",
   },
@@ -24,6 +33,14 @@ const useStyles = makeStyles((theme) => ({
     "&:hover": {
       backgroundColor: theme.palette.secondary.light,
       color: theme.palette.primary.light,
+    },
+  },
+  introskill: {
+    [theme.breakpoints.down("md")]: {
+      fontSize: "2.5em",
+    },
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "1.5em",
     },
   },
 }));
@@ -81,7 +98,12 @@ export default function Home(props) {
       alignItems="center"
       className={classes.homeContainer}
     >
-      <Typography variant="h1" align="center" id="name">
+      <Typography
+        variant="h1"
+        align="center"
+        id="name"
+        className={classes.intro}
+      >
         Hi, I am Gagan
         <br />I am Full Stack Developer
         <br />
@@ -90,7 +112,12 @@ export default function Home(props) {
         </span>
       </Typography>
       {skills.map((skill) => (
-        <Typography key={skill.name} id={skill.id} variant={skill.variant}>
+        <Typography
+          key={skill.name}
+          id={skill.id}
+          variant={skill.variant}
+          className={classes.introskill}
+        >
           {skill.name}
         </Typography>
       ))}

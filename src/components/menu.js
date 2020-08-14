@@ -23,6 +23,14 @@ const useStyles = makeStyles((theme) => ({
     "&:hover": {
       color: theme.palette.secondary.light,
     },
+    [theme.breakpoints.down("sm")]: {
+      marginTop: "10px",
+      fontSize: "4em",
+    },
+    [theme.breakpoints.down("xs")]: {
+      marginTop: "10px",
+      fontSize: "2em",
+    },
   },
   menuBtn: {
     transition: "background-color 1s",
